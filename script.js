@@ -457,8 +457,8 @@ document.querySelector(".submit-recipe-button").addEventListener('click', (e) =>
 
     //construct data obj
 
-    //temp upvote randomiser TODO DELETE Affter data entry
-    recipeEntryData.upvotes = Math.floor(Math.random() * 81) + 10;
+    //temp upvote randomiser for data entry
+    //recipeEntryData.upvotes = Math.floor(Math.random() * 81) + 10
 
     recipeEntryData.recipeName = nameInput.value
     if (/^[\s\r\n]*$/.test(recipeEntryData.recipeName)){
