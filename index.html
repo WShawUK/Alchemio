@@ -2,7 +2,12 @@
 <html lang="en">
 <head>
     <link href="styling.css" rel="stylesheet">
-    <script src="script.js" type="module"></script>
+
+    <script src="search-and-render-script.js" type="module"></script>
+    <script src="UI-script.js" type="module"></script>
+    <script src="submit-recipe-script.js" type="module"></script>
+    <script src="main-script.js" type="module"></script>
+
     <link rel="shortcut icon" href="./icons/wine-outline.svg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -79,7 +84,7 @@
         </form>
         <div id="submit-recipe-box">
             <input type="text" placeholder="Username (optional)" maxlength="20">
-            <button class="submit-recipe-button"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M470.3 271.15L43.16 447.31a7.83 7.83 0 01-11.16-7V327a8 8 0 016.51-7.86l247.62-47c17.36-3.29 17.36-28.15 0-31.44l-247.63-47a8 8 0 01-6.5-7.85V72.59c0-5.74 5.88-10.26 11.16-8L470.3 241.76a16 16 0 010 29.39z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg></button>
+            <button id="submit-recipe-button"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M470.3 271.15L43.16 447.31a7.83 7.83 0 01-11.16-7V327a8 8 0 016.51-7.86l247.62-47c17.36-3.29 17.36-28.15 0-31.44l-247.63-47a8 8 0 01-6.5-7.85V72.59c0-5.74 5.88-10.26 11.16-8L470.3 241.76a16 16 0 010 29.39z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg></button>
         </div>
     </div>
 
@@ -120,7 +125,7 @@
                         <p class="instructions-text">instructions go here gjdfkghlksdfjglksssssssssddddddddssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssdddddddddddddddddddddddddddddddddddddddddddssssssssssssssssssssssssssssssssssssssssssssssdfhgkljsdfhglkjsdfhglksdjfhglkjsglksjdfhglksdjfhglksdfjhglksdjh</p>
                     </div>
                     <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ionicon comments-reader" viewBox="0 0 512 512">
                             <path d="M408 64H104a56.16 56.16 0 00-56 56v192a56.16 56.16 0 0056 56h40v80l93.72-78.14a8 8 0 015.13-1.86H408a56.16 56.16 0 0056-56V120a56.16 56.16 0 00-56-56z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32"/>
                             <circle cx="160" cy="216" r="32"/>
                             <circle cx="256" cy="216" r="32"/>
