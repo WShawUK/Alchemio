@@ -9,6 +9,8 @@ import { windowResizeEvent } from './UI-script.js'
 import { submitCommentEvent } from './UI-script.js'
 import { upvoteEvent } from './UI-script.js'
 
+window.alert('I stopped paying for AWS so this wont work but it would basically just put the user-submitted data into a relational DB and retrieve it.')
+
 
 
 //nav redirect
